@@ -9,7 +9,6 @@
 @font-face {
   font-family: "spartan";
   src: url(league-spartan/LeagueSpartan-Bold.otf) format(opentype);
-  font-weight: 900;
 }
 
 * {
@@ -333,7 +332,6 @@ footer {
 
 .autor {
   font-size: var(--title);  
-  /* margin-bottom: var(--margin-in-div); */
 }
 
 .rodape {
@@ -358,10 +356,6 @@ footer {
 .direitos-terceiros p a {
   text-decoration: none;
   color: lightgreen;
-}
-
-footer p {
- margin-top: var(--margin-in-div);
 }
 
 ul {
