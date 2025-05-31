@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3300:3300"
+    restart: unless-stopped
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARED_TOKEN}
+    restart: unless-stopped
