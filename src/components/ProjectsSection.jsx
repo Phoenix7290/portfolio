@@ -22,7 +22,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "https://github.com/Phoenix7290/Elysium-Hotel",
+    title: "Elysium Hotel",
     description:
       "Aplicação para cadastro de hóteis.",
     image: "/projects/project3.png",
